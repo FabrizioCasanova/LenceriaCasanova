@@ -1,0 +1,1459 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Elementos generales para todas las queries*/
+body {
+    background-color: #FAACA8;
+    background-image: linear-gradient(180deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+nav,
+ul,
+li {
+    display: flex;
+    width: 99.9%;
+    justify-content: center;
+    font-size: 21px;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 0;
+    padding-left: 0;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:active {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+header {
+    font-family: serif;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    height: 85px;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 31px;
+    background-color: #FAACA8;
+    letter-spacing: 50px;
+}
+
+.primerosParrafos {
+    margin-top: 18px;
+    text-align: center;
+    border: double rgb(0, 0, 0);
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+}
+
+figure img {
+    border: 6px double rgb(0, 0, 0);
+    width: 469px;
+    height: 625px;
+}
+
+.segundoParrafo {
+    text-align: center;
+    border: double rgb(0, 0, 0);
+    font-weight: 900;
+    margin: 2% 15% 2% 15%;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+    margin: 10px;
+}
+
+figure figcaption {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+    border: 5px double rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-align: center;
+    border-radius: 24px;
+    margin: 3% 2%;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+section figure {
+    margin: 10px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding-left: 4%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.form-control.is-valid, .form-control.is-invalid, .form-select.is-invalid:not([multiple]):not([size]){
+    background-image: none;
+    border-color: black;
+}
+
+.g-3, .gx-3 {
+    --bs-gutter-x: 3rem;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.g-3, .gy-3 {
+    --bs-gutter-y: 4rem;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-12{
+    flex: 0 0 auto;
+    width: 55%;
+    justify-content: center;
+    margin-left: 39%;
+}
+
+.numeroCelular {
+    padding-top: 1%;
+    font-weight: 900;
+    text-align: center;
+}
+
+.parrafoFormulario {
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    border: 4px double black;
+    margin: 7% 29% 2% 31%;
+}
+
+.espacio {
+    margin-bottom: 50%;
+}
+
+.containerEnvios {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+.whatsapp {
+    display: inline-block;
+    padding-left: 19%;
+    width: 40%;
+}
+
+.instagram {
+    display: inline-block;
+    width: 20%;
+}
+
+.facebook {
+    display: inline-block;
+    width: 20%;
+}
+
+.twitter {
+    display: inline-block;
+}
+
+li img {
+    padding: 5px;
+}
+
+.flechaDeslizadora {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    padding-top: 17px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+figcaption input {
+    transition-duration: 0.4s;
+    background-color: #00000000;
+    cursor: pointer;
+    font-weight: 900;
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px 1px;
+    margin-left: 17px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+figcaption input:hover {
+    border: 1px solid rgb(255, 217, 0);
+    background-color: #000000;
+    color: white;
+}
+
+.mapaEstatico {
+    margin: 0 24% 24% 1%;
+    padding-top: 0px;
+    width: 500px;
+    height: 450px;
+    border: none;
+}
+
+.textoDescuentos,
+.textoDescuentos2 {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 2%;
+    font-style: italic;
+    text-align: center;
+    padding: 6px;
+    font-weight: 900;
+    margin-left: 30%;
+    margin-right: 34%;
+    color: rgb(0, 0, 0);
+    border: 1px dotted rgb(0, 0, 0);
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    margin-top: 2%;
+    border: none;
+    background-color: #f9adaa !important;
+}
+
+.tachado {
+    display: flex;
+    text-decoration: line-through;
+    color: rgb(135, 13, 13);
+}
+
+.figcaptionDescuentos {
+    display: flex;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border: 5px double rgb(0, 0, 0);
+    font-weight: 900;
+    border-radius: 20px;
+    margin: 2% 3% 0 -9%;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.navbar>.container-fluid{
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.tituloProducto {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    border: double black;
+    margin: 0 34% 4% 34%;
+    padding: 1%;
+}
+
+.pijamas {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border: double rgb(0, 0, 0);
+    margin: 4% 34%;
+    padding: 1%;
+}
+
+.fotosPijamas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.piePijama {
+    padding: 1%;
+    margin: 4%;
+    text-align: center;
+    border-radius: 23px;
+}
+
+.medias {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border: double rgb(0, 0, 0);
+    margin: 4% 34%;
+    padding: 1%;
+}
+
+.fotosMedias {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pieMedias {
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 23px;
+}
+
+.figcaptionPromos {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.bordeDescuentos {
+    border: 6px double rgb(0, 0, 0);
+    width: 469px;
+    height: 625px;
+    margin-left: 9%;
+}
+
+/* Declaraciones de areas para grillas*/
+.imagenIzquierda {
+    grid-area: imagenIzquierda;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.imagenDerecha {
+    grid-area: imagenDerecha;
+}
+
+.descuento1 {
+    grid-area: foto1;
+}
+
+.descuento2 {
+    grid-area: foto2;
+}
+
+.descuento3 {
+    grid-area: foto3;
+}
+
+.descuento4 {
+    grid-area: foto4;
+}
+
+.descuento5 {
+    grid-area: foto5;
+}
+
+.descuento6 {
+    grid-area: foto6;
+}
+
+.whatsapp {
+    grid-area: whatsapp;
+}
+
+.instagram {
+    grid-area: instagram;
+}
+
+.facebook {
+    grid-area: facebook;
+}
+
+.twitter {
+    grid-area: twitter;
+}
+
+.fotoMujer1 {
+    grid-area: fotoMujer1;
+}
+    
+.fotoMujer2 {
+    grid-area: fotoMujer2;
+}
+
+.fotoMujer3 {
+    grid-area: fotoMujer3;
+}
+
+.fotoMujer4 {
+    grid-area: fotoMujer4;
+}
+
+.fotoMujer5 {
+    grid-area: fotoMujer5;
+}
+
+.fotoMujer6 {
+    grid-area: fotoMujer6;
+}
+
+.fotoMujerPijama1 {
+    grid-area: fotoMujerPijama1;
+}
+
+.fotoMujerPijama2 {
+    grid-area: fotoMujerPijama2;
+}
+
+.fotoMujerMedia1 {
+    grid-area: fotoMujerMedia1;
+}
+
+.fotoMujerMedia2 {
+    grid-area: fotoMujerMedia2;
+}
+
+.fotoHombrePijama1 {
+    grid-area: fotoHombrePijama1;
+}
+
+.fotoHombrePijama2 {
+    grid-area: fotoHombrePijama2;
+}
+
+.fotoHombreMedia1 {
+    grid-area: fotoHombreMedia1;
+}
+
+.fotoHombreMedia2 {
+    grid-area: fotoHombreMedia2;
+}
+
+.fotoHombre1 {
+    grid-area: fotoHombre1;
+}
+
+.fotoHombre2 {
+    grid-area: fotoHombre2;
+}
+
+.fotoHombre3 {
+    grid-area: fotoHombre3;
+}
+
+.fotoHombre4 {
+    grid-area: fotoHombre4;
+}
+
+.mapaDinamico {
+    grid-area: mapaDinamico;
+}
+
+.mapaEstatico {
+    grid-area: mapaEstatico;
+}
+
+/* Media para mobile*/
+@media (min-width: 320px) {
+
+    h1 {
+        font-size: 23px;
+    letter-spacing: 3px;
+    }
+
+    nav,
+    ul,
+    li {
+        font-size: 14px;
+        flex-wrap: wrap;
+        width: 110.9%;
+    }
+
+    .flechaDeslizadora{
+        margin-right: -32px;
+    }
+
+    .primerosParrafos {
+        margin: 8% -4% 4% 5%;
+    }
+
+    p {
+        font-size: small;
+    }
+    
+    figure img {
+        width: 256px;
+    height: 338px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    }
+
+    figure figcaption {
+        margin:4% 9% 2% 16%;
+    }
+
+    .figcaptionPromos{
+        margin-left: 7%;
+        margin-right: -2%;
+        margin-top: 3%;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+
+    .w-50 {
+        width: 55%!important;
+        margin-top: 2%;
+        margin-left: 22%;
+        border: double 6px black;
+    }
+
+    /* Grilla 1 Del Index Mobile*/
+    .fotosEjemplos {
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+            "imagenIzquierda"
+            "imagenDerecha";
+            margin-top: 8%;
+    }
+
+    .segundoParrafo {
+        margin: 5% -4% 8% 5%;
+        padding: 5%;
+    }
+
+    .textoDescuentos {
+        margin: 2% 4% 3% 14%
+    }
+
+    .textoDescuentos2 {
+        margin: 5% -4% 12% 8%;
+    }
+
+    .whatsapp{
+        display: inline-block;
+    padding-left: 19%;
+    width: 36%;
+}
+
+.facebook{
+    width: 17%;
+}
+
+.instagram{
+    width: 17%;
+}
+    
+
+    /* Grilla 2 Del Index Mobile*/
+    .fotosDescuentos1 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "foto1"
+            "foto2";
+        margin-left: 3%;
+    }
+
+    figcaption input {
+        margin: 2%;
+    }
+
+    .bordeDescuentos {
+        height: 367px;
+    width: 278px;
+    margin-left: 15%;
+    }
+
+    /* Grilla 3 Del Index Mobile*/
+    .fotosDescuentos2 {
+        display: grid;
+        margin-right: 15%;
+        justify-content: center;
+        grid-template-areas:
+            "foto3"
+            "foto4"
+            "foto5"
+            "foto6";
+        margin-left: 5%;
+    }
+
+    .figcaptionDescuentos {
+        margin: 5% 0% 5% 25%;
+        font-size: medium;
+        font-weight: 900;
+        padding: 4%;
+        flex-direction: column-reverse;
+    }
+
+    .botonDescuentos2 {
+        margin: 2% 0% 3% 3%;
+    }
+
+    /* Ropa Mujer Mobile */
+    .tituloProducto {
+        margin: 4% 5% 4% 6%;
+    }
+
+    /* Grilla 1 Mujer Mobile */
+    .fotosMujeres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoMujer1"
+            "fotoMujer2"
+            "fotoMujer3"
+            "fotoMujer4"
+            "fotoMujer5"
+            "fotoMujer6";
+    }
+
+    /* Grilla 2 Mujer Mobile */
+    .fotosPijamas {
+        display: grid;
+        grid-template-areas:
+            "fotoMujerPijama1"
+            "fotoMujerPijama2";
+    }
+
+    /* Grilla 3 Mujer Mobile */
+    .fotosMedias {
+        display: grid;
+        grid-template-areas:
+            "fotoMujerMedia1"
+            "fotoMujerMedia2";
+    }
+
+    .pijamas {
+        margin: 4% 0% 4% 6%;
+    }
+
+    .medias {
+        margin: 4% 0% 4% 6%;
+    }
+
+    footer {
+        margin-right: 10%;
+    }
+
+    /* Ropa Hombres Mobile */
+    /* Grilla 1 Hombres Mobile*/
+    .fotosHombres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoHombre1"
+            "fotoHombre2"
+            "fotoHombre3"
+            "fotoHombre4";
+    }
+
+    /* Grilla 2 Hombres Mobile */
+    .fotosPijamas {
+        display: grid;
+        grid-template-areas:
+            "fotoHombrePijama1"
+            "fotoHombrePijama2";
+    }
+
+    /* Grilla 3 Hombres Mobile */
+    .fotosMedias {
+        display: grid;
+        grid-template-areas:
+            "fotoHombreMedia1"
+            "fotoHombreMedia2";
+    }
+
+    /* Contactos Mobile */
+    .parrafoFormulario {
+        margin: 7% 11% 6% 11%;
+    }
+
+    .col-12{
+        margin-left: 28%;
+    }
+
+    /* Envios Mobile */
+    .parrafosEnvios {
+        margin: 9% 2% 0 2%;
+    }
+
+    .containerEnvios {
+        display: grid;
+        gap: 25px;
+    }
+
+    .alert-info, .alerta{
+        background-color: rgb(239 187 195);
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    border: 2px double black;
+    font-weight: 900;
+    border-radius: 65px;
+    font-size: small;
+    margin: 7% 5% 7% 6%;
+    padding-bottom: 14px;
+}
+
+.alerta{
+    margin: 1% 10% 3% 10%;
+}
+
+    .mapaDinamico,
+    .mapaEstatico {
+        height: 260px;
+        width: 237px;
+    }
+}
+
+/* Media para tablet */
+@media (min-width: 780px) {
+
+    nav,
+    ul,
+    li {
+        font-size: 18px;
+        flex-wrap: nowrap;
+    }
+
+    header {
+        font-family: serif;
+        text-align: center;
+        font-size: large;
+    }
+
+    h1 {
+        height: 113px;
+        letter-spacing: 25px;
+    }
+
+    p {
+        font-size: medium;
+        margin: 8px;
+    }
+
+    figure img {
+        width: 354px;
+        height: 484px;
+        margin-top: 6%;
+        margin-left: 0;
+    }
+
+    /* Grilla 1 Del Index Tablet*/
+    .fotosEjemplos {
+        display: grid;
+        grid-template-areas: "imagenIzquierda imagenDerecha";
+        justify-content: space-evenly;
+    }
+
+    figure figcaption {
+        font-size: medium;
+    }
+
+    .segundoParrafo {
+        margin-top: 6%;
+    }
+
+    .textoDescuentos {
+        margin-top: 3%;
+        margin: 3% 20% 0% 20%;
+        padding: 8px;
+    }
+
+    .textoDescuentos2 {
+        padding: 8px;
+        margin: 4% 16% 5% 14%;
+
+    }
+
+    .whatsapp{
+        width: 40%;
+    }
+
+    .facebook{
+        width: 20%;
+    }
+
+    .instagram{
+        width: 20%;
+    }
+
+    /* Grilla 2 Del Index Tablet*/
+    .fotosDescuentos1 {
+        display: grid;
+        grid-template-areas: "foto1 foto2";
+        justify-content: space-around;
+        margin-top: 3%;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+
+    .figcaptionPromos {
+        font-size: medium;
+        margin-left: -1%;
+        margin-right: -1%;
+    }
+
+    figcaption input {
+        margin-left: 17px;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .bordeDescuentos {
+        border: 6px double rgb(0, 0, 0);
+        width: 354px;
+        height: 484px;
+        margin-left: 3%;
+    }
+
+    /* Grilla 3 Del Index Tablet*/
+    .fotosDescuentos2 {
+        display: grid;
+        grid-template-areas:
+            "foto3 foto4"
+            "foto5 foto6";
+        justify-content: space-around;
+        padding-top: 2%;
+        margin-left: 7%;
+        margin-right: 6%;
+        gap: 3%;
+    }
+
+    .figcaptionDescuentos {
+        font-size: medium;
+        font-weight: 900;
+        margin: 3% 1% 4% 11%;
+        padding: 4%;
+        flex-direction: column-reverse;
+    }
+
+    .botonDescuentos2 {
+        margin: 3% 0 3% 37%;
+    }
+
+    /* Ropa Mujer Tablet */
+    .tituloProducto {
+        font-size: x-large;
+        margin-left: 23%;
+        margin-right: 25%;
+        margin-bottom: 6%;
+        padding: 1%;
+    }
+
+    /* Grilla 1 Mujer Tablet */
+    .fotosMujeres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoMujer1 fotoMujer2"
+            "fotoMujer3 fotoMujer4"
+            "fotoMujer5 fotoMujer6";
+    }
+
+    /* Grilla 2 Mujer Tablet */
+    .fotosPijamas {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fotosMedias {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    figure figcaption {
+        margin-left: -2%;
+        margin-right: 1%;
+    }
+
+    .botonFotoMujeres1 {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .botonFotoMujeres2 {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .pijamas {
+        margin: 9% 19% 3% 19%;
+    }
+
+    .medias {
+        margin: 9% 19% 3% 19%;
+    }
+
+    .piePijama {
+        padding: 2%;
+    }
+
+    .botonFotoPijama1 {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .botonFotoPijama2 {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .botonFotoMedia1 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+    }
+
+    .botonFotoMedia2 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+    }
+
+    /* Contacto Tablet */
+    .parrafoFormulario {
+        margin: 7% 9% 4% 8%;
+    }
+
+    /* Envios Tablet */
+    .parrafosEnvios {
+        margin: 8% 4% 5% 5%;
+    }
+
+    .containerEnvios {
+        display: grid;
+        grid-template-areas: "mapaDinamico mapaEstetico" ;
+        gap: 25px;
+    }
+
+
+    .alert-info, .alerta {
+        background-color: rgb(239 187 195);
+        color: black;
+        font-family: 'Roboto Flex', sans-serif;
+        text-align: center;
+        border: 2px double black;
+        font-weight: 900;
+        border-radius: 65px;
+        letter-spacing: 1px;
+        margin: 5% 30% 2% 30%;
+        padding-bottom: 14px;
+    }
+
+    .alerta{
+        margin: 1% 37% 3% 37%;
+        }
+
+    .mapaEstatico {
+        width: 350px;
+        height: 350px;
+    }
+
+    .mapaDinamico {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* Ropa Hombre */
+    /* Grilla 1 Hombres Tablet*/
+    .fotosHombres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoHombre1 fotoHombre2"
+            "fotoHombre3 fotoHombre4";
+    }
+
+    .botonFotoHombre1 {
+        margin-left: 1%;
+    }
+
+    .botonFotoHombre2 {
+        margin-top: 2%;
+    }
+}
+
+/* Media para Desktop*/
+@media (min-width: 1070px) {
+
+    nav,
+    ul,
+    li {
+        display: flex;
+        width: 99.9%;
+        justify-content: center;
+        font-size: 21px;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: #000000;
+    }
+
+    a:visited {
+        color: #000000;
+    }
+
+    a:active {
+        color: #000000;
+    }
+
+    a:hover {
+        color: #ffffff;
+    }
+
+    header {
+        font-family: serif;
+        text-align: center;
+        font-size: large;
+    }
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        height: 85px;
+        font-family: serif;
+        background-color: #FAACA8;
+        letter-spacing: 50px;
+    }
+
+    .primerosParrafos {
+        margin-top: 18px;
+        text-align: center;
+        border: double rgb(0, 0, 0);
+        font-weight: 900;
+        margin-bottom: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+        color: black;
+    }
+
+    figure img {
+        border: 6px double rgb(0, 0, 0);
+        width: 469px;
+        height: 625px;
+        margin-left: 0;
+    }
+
+    .segundoParrafo {
+        text-align: center;
+        border: double rgb(0, 0, 0);
+        font-weight: 900;
+        margin: 2% 15% 5% 15%;
+        padding: 1%;
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: large;
+        margin: 10px;
+    }
+
+    figure figcaption {
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: large;
+        border: 5px double rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        text-align: center;
+        border-radius: 24px;
+        margin: 3% 2%;
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+
+    section figure {
+        margin: 10px;
+    }
+
+
+    .numeroCelular {
+
+        padding-top: 1%;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .parrafoFormulario {
+        background-color: #f7e2e5a6;
+        text-align: center;
+        font-weight: 900;
+        font-size: 15px;
+        border: 4px double black;
+        margin: 7% 30% 2% 30%;
+    }
+
+    .espacio {
+        margin-bottom: 21%;
+    }
+
+    .containerEnvios {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 45px;
+    }
+
+    .whatsapp {
+        display: inline-block;
+        padding-left: 19%;
+        width: 40%;
+    }
+
+    .instagram {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .facebook {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .twitter {
+        display: inline-block;
+    }
+
+    li img {
+        padding: 5px;
+    }
+
+    .flechaDeslizadora {
+        display: flex;
+        justify-content: right;
+        margin-right: 10px;
+        padding-top: 17px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    figcaption input {
+        transition-duration: 0.4s;
+        background-color: #00000000;
+        cursor: pointer;
+        font-weight: 900;
+        border: 1px solid black;
+        box-shadow: 0px 0px 0px 1px;
+        margin: 0 0 0 17px;
+        margin-left: 17px;
+        padding: 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+    }
+
+    .botonFotoMujeres,
+    .botonFotoMujeres2 {
+        margin: 0 0 0 17px;
+    }
+    
+    figcaption input:hover {
+        border: 1px solid rgb(255, 217, 0);
+        background-color: #000000;
+        color: white;
+    }
+
+    .mapaEstatico {
+        margin: 0 24% 24% 1%;
+        padding-top: 0px;
+        width: 500px;
+        height: 450px;
+        border: none;
+    }
+
+    .mapaDinamico {
+        width: 500px;
+        height: 450px;
+    }
+
+    .textoDescuentos,
+    .textoDescuentos2 {
+        font-family: 'Roboto Flex', sans-serif;
+        margin-top: 2%;
+        font-style: italic;
+        text-align: center;
+        padding: 6px;
+        font-weight: 900;
+        margin-left: 30%;
+        margin-right: 34%;
+        color: rgb(0, 0, 0);
+        border: 2px dotted rgb(0, 0, 0);
+    }
+
+    .tachado {
+        display: flex;
+        text-decoration: line-through;
+        color: rgb(135, 13, 13);
+    }
+
+    .figcaptionDescuentos {
+        display: flex;
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: large;
+        color: rgb(0, 0, 0);
+        border: 5px double rgb(0, 0, 0);
+        font-weight: 900;
+        border-radius: 20px;
+        margin: 5% 0% 5% 18%;
+        padding: 4%;
+        padding-bottom: 6px;
+        padding-top: 5px;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+
+    .botonDescuentos2 {
+        margin: 3% 0% 3% 38%;
+    }
+
+    .tituloProducto {
+        text-align: center;
+        font-family: 'Roboto Flex', sans-serif;
+        font-style: italic;
+        font-size: x-large;
+        font-weight: 900;
+        border: double black;
+        margin: 0 34% 4% 34%;
+        padding: 1%;
+    }
+
+    .pijamas {
+        text-align: center;
+        font-family: 'Roboto Flex', sans-serif;
+        font-style: italic;
+        font-size: x-large;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        border: double rgb(0, 0, 0);
+        margin: 4% 34%;
+        padding: 1%;
+    }
+
+    .fotosPijamas {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .piePijama {
+        padding: 1%;
+        margin: 4%;
+        text-align: center;
+        border-radius: 23px;
+    }
+
+    .medias {
+        text-align: center;
+        font-family: 'Roboto Flex', sans-serif;
+        font-style: italic;
+        font-size: x-large;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        border: double rgb(0, 0, 0);
+        margin: 4% 34%;
+        padding: 1%;
+    }
+
+    .fotosMedias {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pieMedias {
+        padding: 1%;
+        margin: 2%;
+        text-align: center;
+        border-radius: 23px;
+    }
+
+    .botonFotoPijama1 {
+        margin-top: 0;
+        margin-left: 2%;
+    }
+
+    .botonFotoPijama2 {
+        margin-top: 0;
+        margin-left: 2%;
+    }
+
+    .botonFotoHombre2 {
+        margin: 1%;
+    }
+
+    .crearUsuario {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 1%;
+        padding-left: 2%;
+    }
+
+    .figcaptionPromos {
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: large;
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .bordeDescuentos {
+        border: 6px double rgb(0, 0, 0);
+        width: 469px;
+        height: 625px;
+        margin-left: 9%;
+    }
+
+    .col-12{
+        margin-left: 39%;
+    }
+
+    .alert-info, .alerta {
+        background-color: rgb(239 187 195);
+        color: black;
+        font-family: 'Roboto Flex', sans-serif;
+        text-align: center;
+        border: 2px double black;
+        font-weight: 900;
+        border-radius: 65px;
+        letter-spacing: 1px;
+        margin: 5% 30% 2% 30%;
+        padding-bottom: 14px;
+    }
+
+    .alerta{
+    margin: 1% 37% 3% 37%;
+    }
+
+    /* Grilla 1 Del Index Desktop*/
+    .fotosEjemplos {
+        display: grid;
+        grid-template-areas: "imagenIzquierda imagenDerecha";
+        justify-content: space-around;
+        gap: 4%;
+    }
+
+    /* Grilla 2 Del Index Desktop*/
+    .fotosDescuentos1 {
+        display: grid;
+        grid-template-areas: "foto1 foto2";
+        justify-content: space-around;
+        padding: 0%;
+        margin-left: 0;
+        margin-right: -1%;
+        gap: 2%;
+    }
+
+    /* Grilla 3 Del Index Desktop*/
+    .fotosDescuentos2 {
+        display: grid;
+        grid-template-areas:
+            "foto3 foto4"
+            "foto5 foto6";
+        justify-content: space-around;
+        padding-top: 3%;
+        margin-left: -2%;
+        margin-right: 1%;
+        gap: 3%;
+    }
+
+    /* Grilla 4 Del Index Desktop*/
+    .footer {
+        display: grid;
+        grid-template-areas:
+            "whatsapp instagram twitter facebook";
+        justify-content: space-around;
+        padding-top: 1%;
+    }
+
+    /* Grilla 1 Mujeres Desktop*/
+    .fotosMujeres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoMujer1 fotoMujer2"
+            "fotoMujer3 fotoMujer4"
+            "fotoMujer5 fotoMujer6";
+    }
+
+    /* Grilla 1 Hombres Desktop*/
+    .fotosHombres {
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas:
+            "fotoHombre1 fotoHombre2"
+            "fotoHombre3 fotoHombre4";
+    }
+
+}

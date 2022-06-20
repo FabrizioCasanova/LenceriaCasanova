@@ -1627,7 +1627,7 @@ figcaption input:hover {
         justify-content: space-around;
         padding: 0%;
         margin-left: 0;
-        margin-right: -1%;
+        margin-right: 0;
         gap: 2%;
     }
 

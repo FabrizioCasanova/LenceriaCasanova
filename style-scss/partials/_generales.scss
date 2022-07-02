@@ -26,7 +26,7 @@ body {
     /* Aca termina la barra buscadora bts */
 
     p {
-        font-family: 'Roboto Flex', sans-serif;
+        font-family: $font-family;
         font-size: large;
         margin: 10px;
     }
@@ -127,7 +127,7 @@ body {
 
     .textoDescuentos,
     .textoDescuentos2 {
-        font-family: 'Roboto Flex', sans-serif;
+        font-family: $font-family;
         margin-top: 2%;
         font-style: italic;
         text-align: center;

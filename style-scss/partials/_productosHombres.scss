@@ -1,6 +1,6 @@
 .tituloProducto {
     text-align: center;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: $font-family;
     font-style: italic;
     font-size: x-large;
     font-weight: 900;
@@ -10,15 +10,9 @@
 }
 
 .pijamas {
-    text-align: center;
-    font-family: 'Roboto Flex', sans-serif;
-    font-style: italic;
-    font-size: x-large;
-    font-weight: 900;
+    @extend .tituloProducto;
     color: rgb(0, 0, 0);
-    border: double rgb(0, 0, 0);
     margin: 4% 34%;
-    padding: 1%;
 }
 
 .fotosPijamas {
@@ -35,7 +29,7 @@
 
 .medias {
     text-align: center;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: $font-family;
     font-style: italic;
     font-size: x-large;
     font-weight: 900;
@@ -59,12 +53,9 @@
 
 figure {
     figcaption {
-        font-family: 'Roboto Flex', sans-serif;
+        @extend .medias;
         font-size: large;
-        border: 5px double rgb(0, 0, 0);
-        color: rgb(0, 0, 0);
-        font-weight: 900;
-        text-align: center;
+        border: $bordeFigcaption;
         border-radius: 24px;
         margin: 3% 2%;
         padding-bottom: 6px;

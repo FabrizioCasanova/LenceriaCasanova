@@ -1,5 +1,15 @@
+$colorParrafoForm: (
+    Formulario: #f7e2e5a6,
+);
+
+@each $form,
+$colorFondo in $colorParrafoForm {
+    .parrafo#{$form} {
+        background-color: $colorFondo;
+    }
+}
+
 .parrafoFormulario {
-    background-color: white;
     text-align: center;
     font-weight: 900;
     font-size: 15px;

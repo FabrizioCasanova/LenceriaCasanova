@@ -11,93 +11,93 @@
 body {
   background-color: #FAACA8;
   background-image: linear-gradient(180deg, #FAACA8 0%, #DDD6F3 100%);
-  /* Barra buscadora bts */
-  /* Aca termina la barra buscadora bts */
-  /* Formulario de la seccion contactos*/
-  /* Aca termina el formulario */
 }
 
-body .navbar>.container-fluid {
+/* Barra buscadora bts */
+.navbar>.container-fluid {
   flex-direction: column;
   margin-top: 1%;
   margin-left: 2%;
 }
 
-body .bg-light {
+.bg-light {
   --bs-bg-opacity: 1;
   margin-top: 2%;
   border: none;
   background-color: #f9adaa !important;
 }
 
-body p {
+/* Aca termina la barra buscadora bts */
+p {
   font-family: "Roboto Flex", sans-serif;
   font-size: large;
   margin: 10px;
 }
 
-body section figure {
+section figure {
   margin: 10px;
 }
 
-body .form-control.is-valid,
-body .form-control.is-invalid,
-body .form-select.is-invalid:not([multiple]):not([size]) {
+/* Formulario de la seccion contactos*/
+.form-control.is-valid,
+.form-control.is-invalid,
+.form-select.is-invalid:not([multiple]):not([size]) {
   background-image: none;
   border-color: black;
 }
 
-body .g-3,
-body .gx-3 {
+.g-3,
+.gx-3 {
   --bs-gutter-x: 3rem;
   margin-top: 3%;
   margin-left: 1%;
   margin-right: 1%;
 }
 
-body .g-3,
-body .gy-3 {
+.g-3,
+.gy-3 {
   --bs-gutter-y: 4rem;
 }
 
-body .col-md-4 {
+.col-md-4 {
   flex: 0 0 auto;
   width: 50%;
 }
 
-body .col-md-6 {
+.col-md-6 {
   flex: 0 0 auto;
   width: 50%;
 }
 
-body .col-md-3 {
+.col-md-3 {
   flex: 0 0 auto;
   width: 50%;
 }
 
-body .col-12 {
+.col-12 {
   flex: 0 0 auto;
   width: 55%;
   justify-content: center;
   margin-left: 39%;
 }
 
-body li img {
+/* Aca termina el formulario */
+li img {
   padding: 5px;
 }
 
-body .flechaDeslizadora {
+.flechaDeslizadora {
   display: flex;
   justify-content: right;
   margin-right: 10px;
   padding-top: 17px;
 }
 
-body html {
+html {
   scroll-behavior: smooth;
 }
 
-body figcaption input {
+figcaption input {
   transition-duration: 0.4s;
   background-color: #00000000;
   cursor: pointer;
@@ -113,18 +113,19 @@ body figcaption input {
   color: black;
 }
 
-body figcaption input:hover {
+figcaption input:hover {
   border: 1px solid #ffd900;
   background-color: #000000;
   color: white;
 }
 
-body .textoDescuentos,
-body .textoDescuentos2 {
+.textoDescuentos,
+.textoDescuentos2 {
   font-family: "Roboto Flex", sans-serif;
   margin-top: 2%;
   font-style: italic;
   text-align: center;
+  font-size: revert;
   padding: 6px;
   font-weight: 900;
   margin-left: 30%;
@@ -157,7 +158,7 @@ nav,
 ul,
 li {
   display: flex;
-  width: 99.9%;
+  width: 99.8%;
   justify-content: center;
   font-size: 21px;
   flex-wrap: nowrap;
@@ -460,15 +461,14 @@ figure figcaption {
   li {
     font-size: 14px;
     flex-wrap: wrap;
-    width: 110.9%;
   }
 
   .flechaDeslizadora {
-    margin-right: -32px;
+    margin-right: 17px;
   }
 
   .primerosParrafos {
-    margin: 8% -4% 4% 5%;
+    margin: 8% 8% 4% 5%;
   }
 
   p {
@@ -496,7 +496,7 @@ figure figcaption {
   }
 
   .w-50 {
-    width: 55% !important;
+    width: 55%;
     margin-top: 2%;
     margin-left: 22%;
     border: double 6px black;
@@ -533,16 +533,16 @@ figure figcaption {
 
   /* Aca termmina la grilla 1 del Index Mobile */
   .segundoParrafo {
-    margin: 5% -4% 8% 5%;
+    margin: 5% 6% 8% 5%;
     padding: 5%;
   }
 
   .textoDescuentos {
-    margin: 2% 4% 3% 14%;
+    margin: 2% 15% 3% 16%;
   }
 
   .textoDescuentos2 {
-    margin: 5% -4% 12% 8%;
+    margin: 5% 12% 12% 13%;
   }
 
   /* Grilla 2 Del Index Mobile */
@@ -786,12 +786,12 @@ figure figcaption {
 
   /* Aca termmina la grilla 3 Mujer Mobile */
   .pijamas {
-    margin: 4% 0% 4% 6%;
+    margin: 3% 6% 4% 7%;
   }
 
   .medias,
   figure figcaption {
-    margin: 4% 0% 4% 6%;
+    margin: 3% 6% 4% 7%;
   }
 
   footer {
@@ -1610,8 +1610,8 @@ figure figcaption {
     text-align: center;
     padding: 6px;
     font-weight: 900;
-    margin-left: 30%;
-    margin-right: 34%;
+    margin-left: 26%;
+    margin-right: 27%;
     color: black;
     border: 2px dotted black;
   }

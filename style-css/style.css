@@ -158,7 +158,7 @@ nav,
 ul,
 li {
   display: flex;
-  width: 99.8%;
+  width: 99.9%;
   justify-content: center;
   font-size: 21px;
   flex-wrap: nowrap;
@@ -431,10 +431,6 @@ figure figcaption {
   text-align: center;
 }
 
-.espacio {
-  margin-bottom: 50%;
-}
-
 .containerEnvios {
   display: flex;
   justify-content: space-around;
@@ -442,7 +438,7 @@ figure figcaption {
 }
 
 .mapaEstatico {
-  margin: 0 24% 24% 1%;
+  margin: 0 0 24% 1%;
   padding-top: 0px;
   width: 500px;
   height: 450px;
@@ -464,11 +460,13 @@ figure figcaption {
   }
 
   .flechaDeslizadora {
-    margin-right: 17px;
+    margin-right: 9px;
+    margin-top: 11px;
+    margin-bottom: 26px;
   }
 
   .primerosParrafos {
-    margin: 8% 8% 4% 5%;
+    margin: 8% 13% 9% 15%;
   }
 
   p {
@@ -488,8 +486,8 @@ figure figcaption {
   }
 
   .figcaptionPromos {
-    margin-left: 7%;
-    margin-right: -2%;
+    margin-left: 2%;
+    margin-right: 5%;
     margin-top: 3%;
     padding-bottom: 3px;
     padding-top: 8px;
@@ -581,8 +579,8 @@ figure figcaption {
 
   .bordeDescuentos {
     height: 367px;
-    width: 278px;
-    margin-left: 15%;
+    width: 264px;
+    margin-left: 11%;
   }
 
   /* Grilla 3 Del Index Mobile*/
@@ -639,7 +637,7 @@ figure figcaption {
 
   /* Aca termmina la grilla 3 del Index Mobile */
   .figcaptionDescuentos {
-    margin: 5% 0% 5% 25%;
+    margin: 5% 9% 5% 16%;
     font-size: medium;
     font-weight: 900;
     padding: 4%;
@@ -936,7 +934,6 @@ figure figcaption {
     text-align: center;
     border: 2px double black;
     font-weight: 900;
-    border-radius: 65px;
     font-size: small;
     margin: 7% 5% 7% 6%;
     padding-bottom: 14px;
@@ -1404,7 +1401,6 @@ figure figcaption {
     text-align: center;
     border: 2px double black;
     font-weight: 900;
-    border-radius: 65px;
     letter-spacing: 1px;
     margin: 5% 30% 2% 30%;
     padding-bottom: 14px;
@@ -1572,7 +1568,7 @@ figure figcaption {
     display: flex;
     justify-content: right;
     margin-right: 10px;
-    padding-top: 17px;
+    padding-top: 22px;
   }
 
   html {
@@ -1958,15 +1954,11 @@ figure figcaption {
   }
 
   .parrafoFormulario {
-    margin: 7% 30% 2% 30%;
+    margin: 4% 30% 5% 30%;
   }
 
   .col-12 {
     margin-left: 39%;
-  }
-
-  .espacio {
-    margin-bottom: 21%;
   }
 
   /* Aca termina Contacto Desktop */
@@ -1985,7 +1977,6 @@ figure figcaption {
     text-align: center;
     border: 2px double black;
     font-weight: 900;
-    border-radius: 65px;
     letter-spacing: 1px;
     margin: 5% 30% 2% 30%;
     padding-bottom: 14px;
@@ -2003,7 +1994,7 @@ figure figcaption {
   }
 
   .mapaEstatico {
-    margin: 0 24% 24% 1%;
+    margin: 0 0 24% 1%;
     padding-top: 0px;
     border: none;
   }

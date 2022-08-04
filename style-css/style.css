@@ -148,12 +148,6 @@ h1 {
   letter-spacing: 50px;
 }
 
-header {
-  font-family: serif;
-  text-align: center;
-  font-size: large;
-}
-
 nav,
 ul,
 li {
@@ -198,6 +192,11 @@ a:hover {
   margin-left: 15%;
   margin-right: 15%;
   color: black;
+}
+
+.card {
+  margin: 15px;
+  background-color: aqua;
 }
 
 figure img {
